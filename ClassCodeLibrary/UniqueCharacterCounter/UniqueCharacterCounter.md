@@ -26,25 +26,25 @@ For each character that appeared, we display its ASCII character representation 
 ```
 Unique characters and their counts:
 Character 'A': 1 times
-Character 'a': 4 times
-Character 'k': 4 times
-Character 's': 2 times
-Character 'l': 1 times
-Character 'd': 3 times
-Character 'e': 2 times
-Character 'o': 2 times
-Character 'P': 1 times
-Character 'O': 2 times
-Character 'x': 1 times
+Character 'B': 3 times
+Character 'D': 1 times
+Character 'H': 3 times
 Character 'K': 1 times
 Character 'M': 1 times
 Character 'N': 2 times
-Character 'H': 3 times
-Character 'D': 1 times
-Character 'B': 3 times
+Character 'O': 3 times
+Character 'P': 1 times
+Character 'a': 4 times
 Character 'b': 2 times
-Character 'z': 1 times
+Character 'd': 3 times
+Character 'e': 2 times
 Character 'h': 3 times
+Character 'k': 5 times
+Character 'l': 1 times
+Character 'o': 2 times
+Character 's': 2 times
+Character 'x': 1 times
+Character 'z': 1 times
 ```
 
 - This solution avoids inbuilt collections and directly uses ASCII indexing, making it efficient and easy to understand.
