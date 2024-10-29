@@ -6,8 +6,10 @@ namespace MainConsoleApp
     {
         static void Main(string[] args)
         {
-            string example = "AaaakkasklkdddekeooPOxOKMNNHHHDOBBBbbzhhsh";
-            UniqueCharacterCounter.CountUniqueCharacters(example);
+            //string example = "AaaakkasklkdddekeooPOxOKMNNHHHDOBBBbbzhhsh";
+            //UniqueCharacterCounter.CountUniqueCharacters(example);
+
+
         }
     }
 }
