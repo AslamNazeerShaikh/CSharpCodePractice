@@ -1,4 +1,8 @@
-﻿# Explanation
+﻿# Question 
+- Write a code using C# to find out how many unique char elements are present inside a given string and their repeatation count.
+- Note: Avoid using inbuilt C# methods for searching, sorting, inserting or for comparison operations. Avoid use of collections.
+
+# Explanation
 
 ## 1. ASCII Array Initialization:
 
