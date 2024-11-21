@@ -1,5 +1,6 @@
 ﻿using ClassCodeLibrary.CustomArraySorter;
 using ClassCodeLibrary.UniqueCharacterCounter;
+using ClassCodeLibrary.SecondLargestNumber;
 
 namespace MainConsoleApp
 {
@@ -25,6 +26,43 @@ namespace MainConsoleApp
             //// Test Descending Order
             //Console.WriteLine("\nSorting in Descending Order:");
             //CustomArraySorter.SortGivenArray(intInputArray, false);
+            #endregion
+
+            #region FindSecondLargestNumber
+            ////Test case: Array with duplicates
+            //int[] array = [3, 1, 4, 4, 5, 2, 5];
+            //try
+            //{
+            //    Console.WriteLine("Second Largest: " + SecondLargestNumber.FindSecondLargestNumber(array));
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+
+            //// Test case: Array with fewer than 2 elements
+            //int[] array2 = [1];
+            //try
+            //{
+            //    Console.WriteLine("Second Largest: " + SecondLargestNumber.FindSecondLargestNumber(array2));
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+
+            //// Test case: Array with all identical elements
+            //int[] array3 = [5, 5, 5];
+            //try
+            //{
+            //    Console.WriteLine("Second Largest: " + SecondLargestNumber.FindSecondLargestNumber(array3));
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Error: " + ex.Message);
+            //}
+
+            //Console.ReadKey();
             #endregion
         }
     }
