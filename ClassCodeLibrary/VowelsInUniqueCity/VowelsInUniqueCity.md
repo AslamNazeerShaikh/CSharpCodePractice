@@ -41,4 +41,4 @@ City: Mumbai, Vowels: uai
 City: Kolkata, Vowels: oa
 City: Munbai, Vowels: uai
 ```
-<img src="/Images/VowelsInUniqueCity Screenshot_20250129_160357.png" width="300" />
+<img src="/Images/VowelsInUniqueCity Screenshot_20250129_160357.png" />
