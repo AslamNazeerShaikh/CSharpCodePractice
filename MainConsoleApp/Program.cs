@@ -1,6 +1,7 @@
 ﻿using ClassCodeLibrary.CustomArraySorter;
 using ClassCodeLibrary.UniqueCharacterCounter;
 using ClassCodeLibrary.SecondLargestNumber;
+using ClassCodeLibrary.VowelsInUniqueCity;
 
 namespace MainConsoleApp
 {
@@ -8,6 +9,10 @@ namespace MainConsoleApp
     {
         static void Main(string[] args)
         {
+            #region VowelsInUniqueCity
+            //VowelsInUniqueCity.ExecuteCode();
+            #endregion
+
             #region UniqueCharacterCounter
             //string example = "AaaakkasklkdddekeooPOxOKMNNHHHDOBBBbbzhhsh";
             //UniqueCharacterCounter.CountUniqueCharacters(example);
