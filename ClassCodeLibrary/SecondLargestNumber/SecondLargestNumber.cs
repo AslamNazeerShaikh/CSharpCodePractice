@@ -8,6 +8,7 @@ namespace ClassCodeLibrary.SecondLargestNumber
 {
     public class SecondLargestNumber
     {
+        #region Documentation
         /// <summary>
         /// Finds the second largest number in a given array of integers.
         /// </summary>
@@ -15,6 +16,9 @@ namespace ClassCodeLibrary.SecondLargestNumber
         /// <returns>The second largest integer in the array.</returns>
         /// <exception cref="ArgumentException">Thrown when the array has fewer than two elements.</exception>
         /// <exception cref="InvalidOperationException">Thrown when the array does not contain enough distinct elements.</exception>
+        #endregion
+
+        #region Implementation
         public static int FindSecondLargestNumber(int[] nums)
         {
             // Check if the array has at least two elements
@@ -48,5 +52,6 @@ namespace ClassCodeLibrary.SecondLargestNumber
 
             return secondLargest;
         }
+        #endregion
     }
 }

@@ -23,20 +23,29 @@ namespace ClassCodeLibrary.VowelsInUniqueCity
             }
         }
 
-        // Method to remove duplicate elements from an array manually
-        public static string[] RemoveDuplicates(string[] arr)
+
+        #region Documentation
+        /// <summary>
+        /// Method to remove duplicate elements from an array manually
+        /// </summary>
+        /// <param name="inputArray">The array of strings to process which contains duplicates.</param>
+        /// <returns>Return the array with unique city names.</returns>
+        #endregion
+
+        #region Implementation
+        public static string[] RemoveDuplicates(string[] inputArray)
         {
-            string[] temp = new string[arr.Length]; // Temporary array to store unique values
+            string[] temp = new string[inputArray.Length]; // Temporary array to store unique values
             int count = 0; // Counter for unique elements
 
-            for (int i = 0; i < arr.Length; i++) // Iterate through the original array
+            for (int i = 0; i < inputArray.Length; i++) // Iterate through the original array
             {
                 bool isDuplicate = false;
 
                 // Check if the current city already exists in the temporary array
                 for (int j = 0; j < count; j++)
                 {
-                    if (arr[i] == temp[j]) // If found, mark it as a duplicate
+                    if (inputArray[i] == temp[j]) // If found, mark it as a duplicate
                     {
                         isDuplicate = true;
                         break;
@@ -46,7 +55,7 @@ namespace ClassCodeLibrary.VowelsInUniqueCity
                 // If not a duplicate, add it to the temp array
                 if (!isDuplicate)
                 {
-                    temp[count] = arr[i];
+                    temp[count] = inputArray[i];
                     count++; // Increase the count of unique elements
                 }
             }
@@ -62,8 +71,15 @@ namespace ClassCodeLibrary.VowelsInUniqueCity
 
             return uniqueArray; // Return the array with unique city names
         }
+        #endregion
 
-        // Method to find vowels in a given city name
+        #region Documentation
+        /// <summary>Method to find vowels in a given city name.</summary>
+        /// <param name="word">The word on which needs to find vowels inside it.</param>
+        /// <returns>Return the array containing vowels found in the word.</returns>
+        #endregion
+
+        #region Implementation
         public static char[] FindVowels(string word)
         {
             char[] vowels = new char[word.Length]; // Array to store vowels found
@@ -104,5 +120,6 @@ namespace ClassCodeLibrary.VowelsInUniqueCity
 
             return result; // Return the array containing vowels found in the word
         }
+        #endregion
     }
 }
