@@ -2,10 +2,10 @@
 
 1. Remove duplicate characters from a string:
 - This will involve creating four specific functions to handle the removal of duplicates for: 
-	a. `special characters only`.
-	b. `numbers only`.
-	c. `lowercase letters only`.
-	d. `uppercase letters only`.
+	- a. `special characters only`.
+	- b. `numbers only`.
+	- c. `lowercase letters only`.
+	- d. `uppercase letters only`.
 
 2. Remove `all special characters` from the string.
 3. Remove `all numbers` from the string.
@@ -14,16 +14,16 @@
 
 # Note:
 
-1. Solve this problem without using collections, LINQ, or built-in methods like Where(), Distinct().
-2. No built-in methods like Char.IsDigit(), Char.IsLetterOrDigit(), and Contains().
+1. Solve this problem without using collections, LINQ, or built-in methods like `Where(), Distinct()`.
+2. No built-in methods like `Char.IsDigit(), Char.IsLetterOrDigit(), and Contains()`.
 3. No Collections: Everything should be managed by basic string and char operations.
 
 # Key Points:
 
 ## No Built-in Methods:
-- We manually check whether a character is a letter, digit, lowercase, or uppercase by comparing the character's Unicode value (c >= 'A' && c <= 'Z' for uppercase, for example).
+- We manually check whether a character is a letter, digit, lowercase, or uppercase by comparing the character's Unicode value `(c >= 'A' && c <= 'Z'` for uppercase, for example).
 ## No Contains():
-- Instead of Contains(), we use a nested loop to check if a character already exists in the result string or tracking string (like specialChars, numbers, etc.).
+- Instead of `Contains()`, we use a nested loop to check if a character already exists in the result string or tracking string (like `specialChars, numbers, etc.`).
 
 # How the Code Works:
 
@@ -35,7 +35,7 @@
 # Explanation:
 
 ### RemoveDuplicates:
-- Loops through the string and checks if a character has already been added to the result string using the Contains() method of the result string.
+- Loops through the string and checks if a character has already been added to the result string using the `Contains()` method of the result string.
 
 ### RemoveDuplicateSpecialChars:
 - Loops through each character, checks if it's a special character, and adds it to the result if it's not already in the specialChars string.
