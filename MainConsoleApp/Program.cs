@@ -2,6 +2,7 @@
 using ClassCodeLibrary.UniqueCharacterCounter;
 using ClassCodeLibrary.SecondLargestNumber;
 using ClassCodeLibrary.VowelsInUniqueCity;
+using ClassCodeLibrary.StringDuplicationFiltering;
 
 namespace MainConsoleApp
 {
@@ -68,6 +69,10 @@ namespace MainConsoleApp
             //}
 
             //Console.ReadKey();
+            #endregion
+
+            #region StringDuplicationFiltering
+            StringDuplicationFiltering.ExecuteCode();
             #endregion
         }
     }
