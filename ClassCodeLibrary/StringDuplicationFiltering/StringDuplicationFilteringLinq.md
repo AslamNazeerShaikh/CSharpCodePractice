@@ -8,7 +8,7 @@
 
 This solution is highly optimized and follows modern C# best practices. 🚀
 
-Below is a detailed explanation of each LINQ and built-in method you mentioned, including **definition, syntax, use cases, and examples**.
+Below is a detailed explanation of each LINQ and built-in method including **definition, syntax, use cases, and examples**.
 
 ---
 
