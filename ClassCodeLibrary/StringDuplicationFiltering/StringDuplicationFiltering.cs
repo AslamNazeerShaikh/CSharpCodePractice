@@ -11,8 +11,8 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         public static void ExecuteCode()
         {
             string input = "sdfsdfasdgfd%^^%$.....}{}{:\"<><><,.,//.?" +
-                       "|\\';';/:\":>?>?}||}{}<><><><><>,.,/,/';';'][]\\" +
-                       "-=-=%$#@#@^%^*)*(*&*&^&@##!CGDGFDDDAGHGAG65465456314544544";
+                        "|\\';';/:\":>?>?}||}{}<><><><><>,.,/,/';';'][]\\" +
+                        "-=-=%$#@#@^%^*)*(*&*&^&@##!CGDGFDDDAGHGAG65465456314544544";
 
             // Example Usage
             Console.WriteLine("Original String:");

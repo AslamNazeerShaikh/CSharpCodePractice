@@ -13,8 +13,8 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         public static void ExecuteCode()
         {
             string input = "sdfsdfasdgfd%^^%$.....}{}{:\"<><><,.,//.?" +
-                       "|\\';';/:\":>?>?}||}{}<><><><><>,.,/,/';';'][]\\" +
-                       "-=-=%$#@#@^%^*)*(*&*&^&@##!CGDGFDDDAGHGAG65465456314544544";
+                        "|\\';';/:\":>?>?}||}{}<><><><><>,.,/,/';';'][]\\" +
+                        "-=-=%$#@#@^%^*)*(*&*&^&@##!CGDGFDDDAGHGAG65465456314544544";
 
             Console.WriteLine("Original String:");
             Console.WriteLine(input);

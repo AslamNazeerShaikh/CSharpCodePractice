@@ -10,7 +10,7 @@ namespace ClassCodeLibrary.CustomArraySorter
     {
         #region Documentation
         /// <summary>
-        /// Sorts the given array either in ascending or descending order using both inbuilt 
+        /// Sorts the given array either in ascending or descending order using both inbuilt
         /// and custom sorting logic.
         /// </summary>
         /// <typeparam name="T">The type of elements in the array, must implement IComparable&lt;T&gt;.</typeparam>
@@ -53,7 +53,7 @@ namespace ClassCodeLibrary.CustomArraySorter
 
         #region Documentation
         /// <summary>
-        /// Sorts the array using a custom bubble sort algorithm. Sorts in ascending or descending 
+        /// Sorts the array using a custom bubble sort algorithm. Sorts in ascending or descending
         /// order based on the <paramref name="sortOrder"/> parameter.
         /// </summary>
         /// <typeparam name="T">The type of elements in the array, must implement IComparable&lt;T&gt;.</typeparam>
