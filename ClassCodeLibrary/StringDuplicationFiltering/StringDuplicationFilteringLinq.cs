@@ -51,13 +51,13 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         /// Removes duplicate characters while preserving the original order.
         /// </summary>
         public static string RemoveDuplicatesLinq(this string input) =>
-            new string(input.Distinct().ToArray());
+            new(input.Distinct().ToArray());
 
         /// <summary>
         /// Removes duplicate special characters while preserving others.
         /// </summary>
         public static string RemoveDuplicateSpecialCharsLinq(this string input) =>
-            new string(input.GroupBy(c => c)
+            new(input.GroupBy(c => c)
                             .Select(g => g.Key)
                             .Where(c => char.IsLetterOrDigit(c) || input.IndexOf(c) == input.LastIndexOf(c))
                             .ToArray());
@@ -66,7 +66,7 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         /// Removes duplicate numbers while preserving others.
         /// </summary>
         public static string RemoveDuplicateNumbersLinq(this string input) =>
-            new string(input.GroupBy(c => c)
+            new(input.GroupBy(c => c)
                             .Select(g => g.Key)
                             .Where(c => !char.IsDigit(c) || input.IndexOf(c) == input.LastIndexOf(c))
                             .ToArray());
@@ -75,7 +75,7 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         /// Removes duplicate lowercase characters while preserving others.
         /// </summary>
         public static string RemoveDuplicateLowerCharsLinq(this string input) =>
-            new string(input.GroupBy(c => c)
+            new(input.GroupBy(c => c)
                             .Select(g => g.Key)
                             .Where(c => !char.IsLower(c) || input.IndexOf(c) == input.LastIndexOf(c))
                             .ToArray());
@@ -84,7 +84,7 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         /// Removes duplicate uppercase characters while preserving others.
         /// </summary>
         public static string RemoveDuplicateUpperCharsLinq(this string input) =>
-            new string(input.GroupBy(c => c)
+            new(input.GroupBy(c => c)
                             .Select(g => g.Key)
                             .Where(c => !char.IsUpper(c) || input.IndexOf(c) == input.LastIndexOf(c))
                             .ToArray());
@@ -93,24 +93,24 @@ namespace ClassCodeLibrary.StringDuplicationFiltering
         /// Removes all special characters from the input string.
         /// </summary>
         public static string RemoveSpecialCharsLinq(this string input) =>
-            new string(input.Where(char.IsLetterOrDigit).ToArray());
+            new(input.Where(char.IsLetterOrDigit).ToArray());
 
         /// <summary>
         /// Removes all numeric characters from the input string.
         /// </summary>
         public static string RemoveNumbersLinq(this string input) =>
-            new string(input.Where(c => !char.IsDigit(c)).ToArray());
+            new(input.Where(c => !char.IsDigit(c)).ToArray());
 
         /// <summary>
         /// Removes all lowercase characters from the input string.
         /// </summary>
         public static string RemoveLowerCharsLinq(this string input) =>
-            new string(input.Where(c => !char.IsLower(c)).ToArray());
+            new(input.Where(c => !char.IsLower(c)).ToArray());
 
         /// <summary>
         /// Removes all uppercase characters from the input string.
         /// </summary>
         public static string RemoveUpperCharsLinq(this string input) =>
-            new string(input.Where(c => !char.IsUpper(c)).ToArray());
+            new(input.Where(c => !char.IsUpper(c)).ToArray());
     }
 }
